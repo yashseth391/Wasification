@@ -1,10 +1,12 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import LandingPage from './App1/Home/LandingPage';
+import Button from './App1/Components/Button';
 
 const App = () => {
   return (
     <View>
-      <Text>App</Text>
+      <LandingPage />
     </View>
   );
 };
