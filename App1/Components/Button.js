@@ -6,7 +6,7 @@ const Button = ({ title, color }) => {
         console.log(` ${title} pressed`)
     }
     return (
-        <TouchableOpacity style={[styles.btn, { backgroundColor: color }]} onPress={check}>
+        <TouchableOpacity style={[styles.btn, { backgroundColor: color }]} onPress={() => console.log(` ${title} pressed`)}>
             <Text style={styles.txt}> {title} </Text>
         </TouchableOpacity>
     )
